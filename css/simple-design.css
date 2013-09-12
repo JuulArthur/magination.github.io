@@ -1,0 +1,126 @@
+/* Default CSS */
+
+body 
+{
+ margin: 0px;
+ 
+}
+
+.dark
+{
+ width: 100%;
+ background-color: #000033;
+}
+
+.light
+{
+ width: 100%;
+ background-color: #eee;
+}
+
+.grid-pattern
+{
+   background-image:url('/static/images/grid.png');
+   background-repeat:repeat;
+   background-position:top center;
+   background-size: 50px auto;
+}
+
+.container
+{
+ width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.logo-container
+{
+ height: 250px;
+}
+
+.info-container
+{
+ padding:40px;
+}
+
+.header-text
+{
+ font-family: "Rockwell", Helvetica;
+ font-size: 30px;
+}
+
+.light-text
+{
+ color: #aaa; 
+}
+
+.dark-text
+{
+ color: #fff; 
+}
+
+
+
+
+.rectangle
+{
+ height: 100px;
+ font-family: "Rockwell", Helvetica;
+ font-size: 20px;
+ background-color: #4d4d70;
+ color: #fff;
+ margin: 0.5%;
+ padding: 0.5%;
+ float: left;
+ position: static;
+ border-radius: 4px;
+}
+
+.rectangle:hover
+{
+ background-color: #5a5a7b;
+}
+
+.mobile-hide
+{
+/*HIDES WHEN WIDTH = MOBILE*/
+}
+
+.inside-rect
+{
+ position: static;
+ width: 100%;
+ height: 100%;
+ background-color: #fff;
+}
+
+@media screen and (max-width:1000px)
+{
+  .container
+  {
+    width: 100%;
+  }
+  
+  .grid-pattern
+  {
+   background-size: 5% auto;
+  }
+}
+
+@media screen and (max-width:480px)
+{
+  .mobile-hide
+  {
+   display:none;
+  }
+  
+  .grid-pattern
+  {
+   background-size: 24px auto;
+  }
+  
+  .header-text
+  {
+   font-size: 20px;
+  }
+}

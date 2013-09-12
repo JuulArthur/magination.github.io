@@ -1,12 +1,50 @@
-{% load i18n %}
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Base</title>
-</head>
-<body>
-<link rel="stylesheet" href="/static/css/pages.css" type="text/css">
-<img src="/static/images/welcome.jpg" alt="hei"/>
-{% block content %}{% endblock %}
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="dcterms.created" content="Mon, 09 Sep 2013 21:23:43 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Magination</title>
+	
+	<link rel="stylesheet" href="css/styles.css" />
+    
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="container">
+    	   <div class="rectangle one">ONE BIG-ASS THING</div>
+		   <div class="rectangle one-three">LEFT</div>
+		   <div class="rectangle one-three">MIDDLE</div>
+		   <div class="rectangle one-three">RIGHT</div>
+		   
+		   <div class="rectangle two-three mobile-hide">HIDES FROM MOBILE</div>
+		   <div class="rectangle one-three mobile-hide">HIDES FROM MOBILE</div>
+		   
+		   <div class="rectangle one-two">TAKE 50%</div>
+		   <div class="rectangle one-two">TAKE OTHER 50%</div>
+		   
+		   <div class="rectangle five-six">QUITE BIG, SECOND ACTUALLY</div>
+		   <div class="rectangle one-six mobile-hide">HIDES FROM MOBILE</div>
+		   
+		   <div class="rectangle one-six">SMALL</div>
+		   <div class="rectangle one-six">SMALL</div>
+		   <div class="rectangle one-six">SMALL</div>
+		   <div class="rectangle one-six">SMALL</div>
+		   <div class="rectangle one-six">SMALL</div>
+		   <div class="rectangle one-six">SMALL</div>
+		   
+		   <div id="arcs"></div>
+    </div>
+	
+	
+  </body>
 </html>

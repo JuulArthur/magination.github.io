@@ -1,0 +1,134 @@
+/* Default CSS */
+
+body 
+{
+ margin: 0px;
+ background-color: #000033;
+}
+
+.container
+{
+ width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.rectangle
+{
+ height: 100px;
+ font-family: "Rockwell", Helvetica;
+ font-size: 20px;
+ background-color: #4d4d70;
+ color: #fff;
+ margin: 0.5%;
+ padding: 0.5%;
+ float: left;
+ position: static;
+ border-radius: 4px;
+}
+
+.rectangle:hover
+{
+ background-color: #5a5a7b;
+}
+
+.mobile-hide
+{
+/*HIDES WHEN WIDTH = MOBILE*/
+}
+
+.one
+{
+ width: 98%;
+}
+
+.one-two
+{
+ width: 48%;
+}
+
+.one-three
+{
+ width: 31.3333%;
+}
+
+.two-three
+{
+ width: 64.6666%;
+}
+
+.one-six
+{
+ width: 14.6666%;
+}
+
+.five-six
+{
+ width: 81.3333%;
+}
+
+
+
+.inside-rect
+{
+ position: static;
+ width: 100%;
+ height: 100%;
+ background-color: #fff;
+}
+
+@media screen and (max-width:1000px)
+{
+  .container
+  {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:480px)
+{
+
+  .rectangle {font-size: 25px; } /*DO DELETE*/
+  
+  .mobile-hide
+  {
+   display:none;
+  }
+  .one-two
+  {
+   width: 98%;
+  }
+  
+  .one-three
+  {
+   width: 98%;
+  }
+  
+  .two-three
+  {
+   width: 98%;
+  }
+  
+  .one-six
+  {
+   width: 48%;
+  }
+  
+  .five-six
+  {
+   width: 98%;
+  }
+}
+
+#arcs{
+    border: 80px solid #fff; /* the 'strokes' of the arc */
+    display: inline-block;
+    min-width: 0px; /* the width of the innermost element */
+    min-height: 0px; /* the height of the innermost element */
+    border-radius: 50%; /* for making the elements 'round' */
+    border-bottom-color:transparent;
+    
+    transform:rotate(20deg);
+    -ms-transform:rotate(20deg); /* IE 9 */
+    -webkit-transform:rotate(20deg); /* Safari and Chrome */
+}
