@@ -27,7 +27,7 @@ a
 
 .grid-pattern
 {
-   background-image:url('img/grid.png');
+   background-image:url('../img/grid.png');
    background-repeat:repeat;
    background-position:top center;
    background-size: 50px auto;
@@ -137,7 +137,7 @@ a
   margin-left: auto;
   margin-right: auto;
   display: block;
-  background: url(img/facebook-icon.png) no-repeat;
+  background: url(../img/facebook-icon.png) no-repeat;
   overflow: hidden;
   background-position:0px 0px;
   cursor: pointer;
