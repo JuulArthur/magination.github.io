@@ -89,7 +89,7 @@ a
 
 .dark-text
 {
- color: #fff; 
+ color: #e5e5ea; 
 }
 
 .magination-design
@@ -125,6 +125,16 @@ a
   padding-top: 25px;
   height: 0;
   margin-bottom: 20px;
+}
+
+#mc_embed_signup
+{
+  background: #eee; 
+  clear: left; 
+  font: 14px "Rockwell",Helvetica,Arial,sans-serif;
+  color: #aaa;
+  width: 980px;
+  margin-left: 20px;
 }
 
 .facebook-icon
